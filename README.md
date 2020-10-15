@@ -37,10 +37,10 @@ https://www.backtrader.com/docu/
 
 - Fill up the information according to what kind of dataset you would like to get in get_data.py
 
-- Run get_data.py file to create csv file
+- Run get_data.py to create csv file
 
 - Run ta.py file to get RSI
 
-- Select the from date, to date, and csv file
+- Select the from date, to date, and csv file from backtest.py
 
-- Run backtest.py file
+- Run backtest.py
