@@ -28,3 +28,19 @@ https://mrjbq7.github.io/ta-lib/
 ### Backtrader
 
 https://www.backtrader.com/docu/
+
+### Instruction
+
+- Get API Keys from Binance first
+
+- Create config.py and put your own API keys in
+
+- Fill up the information according to what kind of dataset you would like to get in get_data.py
+
+- Run get_data.py file to create csv file
+
+- Run ta.py file to get RSI
+
+- Select the from date, to date, and csv file
+
+- Run backtest.py file

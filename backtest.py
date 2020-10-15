@@ -17,8 +17,12 @@ class RSIStrategy(bt.Strategy):
 
 cerebro = bt.Cerebro()
 
+# you can change from date and to date to view selected period of time you want
+fromdate = datetime.datetime.strptime('2020-01-01', '%Y-%m-%d')
+todate = datetime.datetime.strptime('2020-10-14', '%Y-%m-%d')
+
 data = bt.feeds.GenericCSVData(dataname="2017-2020_1hour.csv",
-                               dtformat=2, compression=60, timeframe=bt.TimeFrame.Minutes)
+                               dtformat=2, compression=60, timeframe=bt.TimeFrame.Minutes, fromdate=fromdate, todate=todate)
 
 cerebro.adddata(data)
 
