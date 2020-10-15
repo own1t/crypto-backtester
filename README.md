@@ -1,4 +1,4 @@
-## Back Testing App for CryptoCurrency
+## Back Testing App for CryptoCurrency with RSI Indicator
 
 ### Built with Python
 
